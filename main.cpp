@@ -3,11 +3,9 @@
 using namespace std;
 int main()
 {
-  const double tax = 6.75;
-  const double tip = 20;
-  double mealcharge = 88.67;
-  double tipamount;
-  double taxamount;
+  double regular_charge = 59.95;
+  double discount_amount;
+  double sales_price;
   double total;
 
   /* ************************************
@@ -15,8 +13,7 @@ int main()
   ************************************ */
 
   cout << setprecision(2) << fixed;
-  cout << "Meal Cost: " << mealcharge << endl;
-  cout << "Tax Amount: " << taxamount << endl;
-  cout << "Tip Amount: " << tipamount << endl;
-  cout << "Total Amount: " << total << endl;
+  cout << "Regular price: $" << regular_charge << endl;
+  cout << "Discount amount: $" << discount_amount << endl;
+  cout << "Sale price: $" << sales_price << endl;
 }
